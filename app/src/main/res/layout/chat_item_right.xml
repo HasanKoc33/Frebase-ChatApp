@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="50dp"
+    android:padding="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/background_right"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:id="@+id/fotosnd"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10dp"
+            android:padding="1dp"
+            android:visibility="gone"
+            />
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/bekle"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignEnd="@+id/fotosnd"
+            android:layout_alignRight="@+id/fotosnd"
+            android:layout_alignBottom="@+id/fotosnd"
+            android:layout_gravity="center"
+            android:layout_marginEnd="125dp"
+            android:layout_marginRight="125dp"
+            android:layout_marginBottom="125dp"
+            android:indeterminateDrawable="@drawable/progress"
+            android:visibility="gone"
+            android:scaleX="1" />
+
+        <TextView
+            android:id="@+id/show_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="2dp"
+            android:minEms="2"
+            android:padding="1dp"
+            android:text="hello world"
+            android:textColor="@color/yazi"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ses"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="204dp"
+        android:background="@drawable/background_right"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/akis"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="209dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:id="@+id/dater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toEndOf="@+id/akis"
+            android:layout_toRightOf="@+id/akis"
+            android:text="00:00" />
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/play" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="2dp"
+        android:text="00:00"
+        android:textColor="@color/yazi"
+        android:textSize="10sp" />
+
+
+
+</RelativeLayout>

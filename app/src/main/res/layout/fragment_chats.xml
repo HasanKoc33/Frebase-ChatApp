@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.ChatsFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:background="@drawable/vievleft"
+        />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="outsideOverlay">
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/rehber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:theme="@style/AppTheme"
+        android:text="@string/rehber"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark"
+        android:elevation="6dp"
+        app:icon="@drawable/personel"
+        android:backgroundTint="@color/cyan"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|left"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toStartOf="@+id/rehber"
+        android:layout_toLeftOf="@+id/rehber"
+        android:background="@color/Traans"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_reklam"></com.google.android.gms.ads.AdView>
+</FrameLayout>

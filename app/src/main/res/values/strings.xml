@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Firebase-ChatApp</string>
+
+    <string name="intent_user">gecis</string>
+    <string name="vievProfil">ViewProfileFragment</string>
+    <string name="profilfoto">pf</string>
+    <string name="title_activity_foto_viev">Foto_viev</string>
+    // intent code
+    <string name="foto_viev">8090</string>
+    <string name="foto_name">8091</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    // reklamlar reklam anahtarı deneme anahtarıdır
+    <string name="banner_reklam">"ca-app-pub-3940256099942544~3347511713"</string>
+
+    // çevirilecekler
+    //hint
+    <string name="onay">Onay kodu</string>
+    <string name="user_name">Kullanıcı adı</string>
+    <string name="num">Numara</string>
+    <string name="searc">Kullanıcı ara...</string>
+
+
+    // butonlar
+    <string name="onayla">Onayla</string>
+    <string name="giris">Giriş Yap</string>
+    <string name="giris1">Giriş</string>
+
+    //durum
+    <string name="online">Aktif</string>
+    <string name="ofline">Pasif</string>
+    <string name="sg">Son görülme :</string>
+
+    <string name="Ahesap">Açık hesap  </string>
+    <string name="Khesap">Gizli hesap</string>
+
+    <string name="tamam">Tamam</string>
+    <string name="iptal">İptal</string>
+    <string name="evet">Evet</string>
+    <string name="hayır">Hayır</string>
+
+    <string name="ayarlar">Ayarlar</string>
+
+
+    <string name="rehber">Rehber</string>
+
+
+
+    //mesajlar
+    <string name="sms_mesage">Bir dogrulama kodu alacaksınız.Tarife ücreti alınabilir.</string>
+    <string name="sms">Telefonunuza bir dogrulama mesajı gelecek lütfen bekleyin !!!</string>
+    <string name="hos_geldin">Hoş Geldiniz</string>
+    <string name="mesaj">Selefkos, sohbetlerinizde gönderilen içeriklere yalnızca sizin erişmenizi sağlar sizden başkası bu içeriklere erişemez.
+        Mesajlar gönderen kişinin telefonundan şifrelenip çıkar ve alıcının telefonunda bu şifre çözülür.Kişisel mesajlarınız güvence altındadır.
+        Uygulamada ana sayfanın en alt kısmında reklamlar mevcuttur.Gelirimizi yalnızca sizi rahatsız etmeyen bu küçük reklamlar ile elde etmekteyiz.
+    \nnot: bu mesajı bir daha görmeyeceksiniz.
+    </string>
+    <string name="Haciklama">Açık hesapta kullanıcı adınızı bilen herkes size ulaşabilir.
+        \nGizli hesapta yanlızca telefon numaranızı bilen kişiler size ulaşabilir.</string>
+    <string name="interner">İnternet baglantınız yok!!! \nSelefkos çevrimdışı çalışamaz!</string>
+
+    <string name="rizin">Hobaa !!! \nDaha önce Rehber erişimine izin vermediginizi tespit ettik.
+        \nkişilerinize erişebilmek için bu izne ihtiyaç duymaktayız efendim.
+        \nBu izni artık manuel olarak vermeniz gerekmektedir. \nKolay gelsin. </string>
+    <string name="ruyarı">Rehberinizde Selefkos kullanıcısı bulunmamaktadır.</string>
+
+
+
+
+</resources>

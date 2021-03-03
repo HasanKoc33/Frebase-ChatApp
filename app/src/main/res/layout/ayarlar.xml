@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/phone"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="50dp"
+            android:padding="5dp"
+            android:text="@string/app_name"
+            android:textColor="@color/yazi"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/mesaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="100dp"
+            android:padding="5dp"
+            android:text="@string/Haciklama"
+            android:textColor="@color/yazi"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/kapali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="50dp"
+            android:padding="5dp"
+            android:text="@string/Khesap"
+            android:textColor="@color/netflix"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/acik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="15dp"
+            android:padding="5dp"
+            android:text="@string/Ahesap"
+            android:textColor="@color/cyan"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

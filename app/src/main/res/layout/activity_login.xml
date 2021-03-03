@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Activity.LoginActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.core.widget.ContentLoadingProgressBar
+                android:id="@+id/onay"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:indeterminateDrawable="@drawable/progress"
+                android:scaleX="1"
+                android:visibility="gone"
+                 />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/onayc"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/onay"
+                android:visibility="gone"
+
+                />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+        <EditText
+            android:id="@+id/code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/phone"
+            android:gravity="center"
+            android:hint="@string/onay"
+            android:textColorHint="@color/hint"
+            android:padding="10dp"
+            android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="@color/sayac"
+                android:layout_marginStart="40dp"
+                android:padding="10dp"
+                android:text="60"
+                android:layout_marginLeft="40dp" />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/Edittext"
+            android:text="@string/onayla"
+            android:textColor="#fff" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="50dp"
+        android:text="@string/sms"
+        android:textColor="@color/yazi"
+        android:textSize="18dp"
+
+        />
+
+</FrameLayout>

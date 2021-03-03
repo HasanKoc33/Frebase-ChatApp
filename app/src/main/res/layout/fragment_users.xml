@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.UsersFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:background="@drawable/vievcenter" />
+
+    <EditText
+        android:id="@+id/search_users"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/chet_send_edittext"
+        android:drawableRight="@drawable/ic_baseline_search_24"
+        android:hint="@string/searc"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/hint" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_users"
+        android:layout_marginTop="55dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/Traans"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_reklam"></com.google.android.gms.ads.AdView>
+
+</FrameLayout>
