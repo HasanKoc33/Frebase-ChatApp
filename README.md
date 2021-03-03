@@ -1,1 +1,6 @@
 # Frebase-ChatApp
+hi whatsap muvadili is a chet application that works with firebase.
+for use
+1) Add your google-services.json file to the application folder.
+2) Enable phone login system from Firebase. (You can add trial numbers to try.)
+Good enhancements. :) 
